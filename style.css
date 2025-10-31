@@ -1,0 +1,151 @@
+    /* Fundo do site com a primeira imagem (Captura de tela 2025-10-23 233458.png) */
+    body {
+        background-image: url('Captura de tela 2025-10-23 233458.png');
+        background-repeat: repeat;
+        background-size: initial;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #495057;
+    }
+    
+    /* Estilo para dar destaque e legibilidade ao conteúdo sobre o fundo */
+    .content-section {
+        background-color: rgba(255, 255, 255, 0.95);
+        padding: 50px 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.95);
+        border-bottom: 1px solid #eee;
+    }
+    
+    .hero-section {
+        min-height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        margin-top: 20px;
+        padding: 60px;
+    }
+    
+    /* Estilo para a Logo (Terceira Imagem: image01.jpg) na navbar */
+    .logo-img {
+        height: 50px; 
+        margin-right: 10px;
+    }
+    
+    /* Estilo para a imagem dos responsáveis (Segunda Imagem: Captura de tela 2025-10-23 233513.jpg) */
+    .img-responsavel {
+         max-width: 100%;
+         height: auto;
+         border-radius: 10px;
+         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    /* Cores customizadas da logo (Rosa e Azul) */
+    .color-rosa { color: #f7a0b3; }
+    .bg-rosa { background-color: #f7a0b3; }
+    .color-azul { color: #5aa4bb; }
+    
+    .btn-custom {
+        background-color: #f7a0b3; /* Cor rosa da logo */
+        border-color: #f7a0b3;
+        color: white;
+        transition: background-color 0.3s;
+    }
+    .btn-custom:hover {
+        background-color: #d1788c;
+        border-color: #d1788c;
+        color: white;
+    }
+
+    /* Estilo dos Cards de Produto */
+    .card-produto {
+        transition: transform 0.3s, box-shadow 0.3s;
+        border: none;
+        border-radius: 10px;
+    }
+    .card-produto:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+    
+    /* MODIFICAÇÃO: Aumenta a altura das imagens dos cards de 200px para 250px */
+    .card-img-top {
+        height: 250px; /* Altura fixa para as imagens dos cards */
+        object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    /* Footer Style */
+    .footer-custom {
+        background-color: rgba(255, 255, 255, 0.95);
+        padding-top: 40px;
+        border-top: 1px solid #eee;
+    }
+    .footer-custom a {
+        color: #5aa4bb;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .footer-custom a:hover {
+        color: #f7a0b3;
+    }
+    /* Estilo para os ícones sociais - ajustado para Bootstrap Icons */
+    .social-icon {
+        font-size: 1.8rem;
+        margin: 0 8px;
+        /* Adicionado cor específica para os ícones */
+        color: #5aa4bb; 
+        transition: color 0.3s, transform 0.3s ease-in-out; /* Adicionado transição para transform */
+    }
+        .social-icon {
+
+display: inline-block;
+transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; 
+}
+
+.social-icon .bi-whatsapp {
+
+color:#d1788c!important; 
+
+}
+
+.social-icon .bi-instagram {
+
+color: #d1788c !important; 
+}
+
+
+
+.social-icon:hover {
+
+transform: translateY(-5px) scale(1.1); 
+text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+color: #0d6efd !important; 
+
+
+
+} 
+
+.social-icon:hover .bi-whatsapp {
+
+transform: translateY(-5px) scale(1.1); 
+text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+color: #00FF4F !important; 
+
+
+
+}
+.social-icon:hover .bi-instagram {
+
+transform: translateY(-5px) scale(1.1); 
+text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+color: #F52E8A !important; 
+}
